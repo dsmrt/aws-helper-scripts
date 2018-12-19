@@ -2,7 +2,8 @@
 
 # The purpose of this script is to assume a role using a profile, 
 # grabbing the temporary credentials, then outputing them as 
-# environmental variables into a `.env`
+# environmental variables into a `.env`. If the values already exist in the 
+# `.env` with the matching COMMENT constant, the line will be updated.
 
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
